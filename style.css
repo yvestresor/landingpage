@@ -4,6 +4,11 @@ body,html {
     font-family: 'Segoe UI', Verdana, sans-serif;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+}
+
 #hero {
     background-color: #1F2937;
     padding-bottom: 30px;

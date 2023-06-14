@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Verdana, sans-serif;
+}
+
+#hero {
+    background-color: #1F2937;
+    padding-bottom: 30px;
+    margin: 0;
+}
+
+#footer {
+    background-color: #1F2937;
+    margin: 0;
+}
+
+#footer p {
+    flex: 1;
+}
+
+#info {
+    background-color: #F9FAF8;
+}
+
+#quote {
+    background-color: #E5E7EB;
+}
+
+.center-div {
+    margin: 0 auto;
+    padding: 40px 0 40px 0;
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1F2937;
+}
+
+#quote h1 {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+}
+
+#action h1 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+#action p {
+    font-size: 18px;
+    margin-top: 0;
+    font-weight: 500;
+    color: #E5E7EB;
+}
+
+.adjust-color {
+    background-color: #3882F6;
+    padding: 20px 150px;
+    margin: 0 40px;
+    border-radius: 10px;
+}
+
+#action .adjust-flex {
+    flex: 5;
+}
+
+.adjust-color button {
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+#quote p {
+    font-size: 24px;
+    font-weight: 600;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flex-item img {
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+#quote .container {
+    padding: 80px 160px;
+}
+
+.container {
+    margin: 10px 120px 80px 120px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+ul li {
+    list-style: none;
+}
+
+nav p {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+nav ul li, #hero .container div p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#info .container div p {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    color: #606063;
+    margin-top: 5px;
+}
+
+#info .flex-item {
+    flex: none;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    border: 0;
+}
+
+.flex-container {
+    display: flex;
+}
+
+#info .flex-container {
+    justify-content: space-between;
+    margin: 10px 150px 80px 150px;
+}
+
+.flex-item {
+    flex: 1;
+}

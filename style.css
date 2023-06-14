@@ -1,5 +1,6 @@
-body {
+body,html {
     margin: 0;
+    padding: 0;
     font-family: 'Segoe UI', Verdana, sans-serif;
 }
 
@@ -16,6 +17,8 @@ body {
 
 #footer p {
     flex: 1;
+    display: flex;
+    justify-content: center;
 }
 
 #info {
@@ -70,6 +73,12 @@ body {
 .adjust-color button {
     border: 2px solid white;
     border-radius: 10px;
+}
+
+.adjust-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #quote p {
